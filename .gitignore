@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Runtime
+logs/
+debug/
+config/user_settings.json
+
+# Training outputs
+runs/
+training_runs/
+datasets/
+yolo_dataset/
+model_test_results/
+
+# Recordings
+recordings/
+screenshots/
+*.mp4
+*.avi
+
+# Temporary files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# PyCharm
+.idea/
+*.iml
+
+# Original YOLO model
+yolo26n.pt
